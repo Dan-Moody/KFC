@@ -32,8 +32,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if 'i\'m' in message.content.lower() or 'im' in message.content.lower():
-        dadName = re.split(' im | i\'m |im |i\'m ', message.content.lower(), 1)[1]
+    if 'i\'m' in message.content.lower() or 'im' in message.content.lower() or 'i am' in message.content.lower():
+        dadName = re.split(' im | i\'m |im |i\'m |i am | i am |', message.content.lower(), 1)[1]
         print(message.content)
         response = f'Hi {dadName}, I\'m Dad'
         await message.channel.send(response)
