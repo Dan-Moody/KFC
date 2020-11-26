@@ -1,6 +1,10 @@
 A space for me to prectice programming by going through the programming ideas listed on this page in the text category
     https://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/ 
 
+* C files are compiled using MinGW for windows
+    https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ 
+* generally compiled with 
+    gcc -Wall filename.c -o filename
 
 -----------------------------------------------------------------------------------------------------------------------
 **** Completed ****
