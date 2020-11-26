@@ -4,7 +4,7 @@ A space for me to prectice programming by going through the programming ideas li
 
 -----------------------------------------------------------------------------------------------------------------------
 **** Completed ****
-Reverse a String - Java – Enter a string and the program will reverse it and print it out.
+Reverse a String - Java, Python – Enter a string and the program will reverse it and print it out.
 
 
 -----------------------------------------------------------------------------------------------------------------------
