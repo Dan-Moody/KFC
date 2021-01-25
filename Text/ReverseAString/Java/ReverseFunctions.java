@@ -1,3 +1,5 @@
+package Text.ReverseAString.Java;
+
 public class ReverseFunctions {
     /**
      * Reverses the string using the StringBuilder reverse function
