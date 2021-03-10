@@ -16,9 +16,7 @@ public class PigLatin {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
 
-        inputString = pigLatin1(inputString); // StringBuilder
-        // inputString = reverse2(inputString); // Swaps letters
-        // inputString = reverse3(inputString); // Temp array
+        inputString = pigLatin1(inputString);
 
         System.out.println("The Pig Latin String is : " + inputString);
         scanner.close();

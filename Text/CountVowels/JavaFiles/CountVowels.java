@@ -12,9 +12,7 @@ public class CountVowels {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
 
-        int count = vowelCounter(inputString); // StringBuilder
-        // inputString = reverse2(inputString); // Swaps letters
-        // inputString = reverse3(inputString); // Temp array
+        int count = vowelCounter(inputString);
 
         System.out.println("The number of vowels is : " + count);
         scanner.close();
