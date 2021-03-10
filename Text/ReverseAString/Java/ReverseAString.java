@@ -3,6 +3,7 @@ package Text.ReverseAString.Java;
 //package Text.ReverseAString;
 
 import java.util.Scanner;
+import java.lang.String;
 // import java.lang.StringBuilder;
 
 /**
@@ -13,14 +14,15 @@ public class ReverseAString {
 
     public static void main(String[] args) {
         System.out.print("Enter a string to be reversed : ");
-        Scanner scanner = new Scanner(System. in);
-        String inputString = scanner. nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String inputString = scanner.nextLine();
 
         inputString = reverse1(inputString); // StringBuilder
         // inputString = reverse2(inputString); // Swaps letters
         // inputString = reverse3(inputString); // Temp array
 
         System.out.println("The reversed string is : " + inputString);
+        scanner.close();
     }
 
     /**
