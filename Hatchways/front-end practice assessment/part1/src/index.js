@@ -15,7 +15,7 @@ class DailyWeather extends Component {
     //          dayOfWeek: current day of week as number
     render() {
         // Iterate through the daily weather and display it
-        let days = [];
+        const days = [];
         for (let i = 0; this.props.dailys && i < 5; i++) {
 
             // Calculates the day of the week and increments for future days based on i
